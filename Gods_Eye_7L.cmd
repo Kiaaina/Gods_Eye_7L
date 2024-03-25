@@ -8,7 +8,7 @@ title "Gods_Eye_7L"
 @set "apk=952718647123"
 @set "app=978541321643"
 @set "exe=981721365432"
-cecho {04}
+cecho {04}1=apk{\n}2=app{\n}3=exe{07}
 
 set /a m=Choose;
 if (%m%=1) & goto one
