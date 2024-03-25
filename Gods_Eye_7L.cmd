@@ -1,7 +1,7 @@
 cd /
 :top
 cls
-mod con: lines=6 cols=30
+mode con: lines=6 cols=30
 title "Gods_Eye_7L"
 @cecho off 
           
