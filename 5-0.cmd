@@ -9,7 +9,7 @@ title "5-0_7L"
 @set "medic=111111111111"
 @set "police=222222222222"
 
-cecho {04}1=fire{\n}2=medic{\n}3=police{07}
+%cecho% {04}1=fire{\n}2=medic{\n}3=police{07}
 
 set /p m=Choose;
 if (%m%=1) goto one
