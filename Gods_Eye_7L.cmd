@@ -3,17 +3,17 @@ cd /
 cls
 mode con: lines=6 cols=30
 title "Gods_Eye_7L"
-@cecho off 
-          
+@echo off 
+.@set "cecho=.\cecho.exe"
 @set "apk=952718647123"
 @set "app=978541321643"
 @set "exe=981721365432"
-cecho {04}1=apk{\n}2=app{\n}3=exe{07}
+%cecho% {04}1=apk{\n}2=app{\n}3=exe{07}
 
-set /a m=Choose;
-if (%m%=1) & goto one
-if (%m%=2) & goto two
-if (%m%=3) & goto three
+set /p m=Choose;
+if (%m%=1) goto one
+if (%m%=2) goto two
+if (%m%=3) goto three
 goto top
 
 :one
