@@ -11,10 +11,10 @@ title "5-0_7L"
 
 cecho {04}1=fire{\n}2=medic{\n}3=police{07}
 
-set /a m=Choose;
-if (%m%=1) & goto one
-if (%m%=2) & goto two
-if (%m%=3) & goto three
+set /p m=Choose;
+if (%m%=1) goto one
+if (%m%=2) goto two
+if (%m%=3) goto three
 goto top
 
 :one
