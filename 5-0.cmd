@@ -3,8 +3,8 @@ cd /
 cls
 mode con: lines=6 cols=30
 title "5-0_7L"
-@cecho off 
-          
+@echo off 
+@set "cecho=.\cecho.exe"          
 @set "fire=000000000000"
 @set "medic=111111111111"
 @set "police=222222222222"
