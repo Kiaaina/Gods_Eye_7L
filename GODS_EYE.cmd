@@ -8,7 +8,7 @@ set "cecho=.\cecho.exe"
 set "fire=000000000000"
 set "medic=111111111111"
 set "police=222222222222"
-set "cool=333333333333"
+set "0cool=333333333333"
 
 %cecho% {04}1=fire{\n}2=medic{\n}3=police{\n}4=0cool{\n}
 
@@ -32,7 +32,7 @@ copy "%police%" "./police.exe"
 goto 7L
 
 :four
-copy "%cool%" "./0cool.exe"
+copy "%0cool%" "./0cool.exe"
 goto 7L
 
 :7L
