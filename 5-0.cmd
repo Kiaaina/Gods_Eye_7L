@@ -2,7 +2,7 @@ cd /
 :top
 cls
 mode 20,5
-title "5-0_7L"
+title "GODS_EYE"
 @echo off 
 @set "cecho=.\cecho.exe"          
 @set "fire=000000000000"
