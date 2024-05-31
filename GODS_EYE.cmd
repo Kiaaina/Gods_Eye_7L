@@ -13,10 +13,10 @@ set "0cool=333333333333"
 %cecho% {04}1=fire{\n}2=medic{\n}3=police{\n}4=0cool{\n}
 
 set /p m=Choose;
-if (%m%==1) goto one
-if (%m%==2) goto two
-if (%m%==3) goto three
-if (%m%==3) goto four
+if %m%==1 goto one
+if %m%==2 goto two
+if %m%==3 goto three
+if %m%==3 goto four
 goto top
 
 :one
